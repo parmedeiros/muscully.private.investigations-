@@ -1,0 +1,251 @@
+@font-face {
+    font-family: 'title';
+    src: url('fonte/dosis.bold.ttf');
+}
+@font-face {
+    font-family: 'corpo';
+    src: url('fonte/ubuntu.mono-bold.ttf');
+}
+html {
+    background-image: url('imagens/bg.gif');
+    background-size: 100%;
+    background-attachment: fixed;
+    color: white;
+}
+/* Header do Site */
+.header {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.title {
+    font-family: 'title';
+}
+
+#icon {
+    margin-top: -20px;
+    margin-left: -30px;
+    margin-right: -15px;
+    float: left;
+    width: 140px;
+}
+
+#titulo {
+    margin-top: -8px;
+    font-size: 50px;
+}
+#subtitle {
+    margin-left: 9%;
+    margin-top: -3%;
+}
+
+/* Corpo do site */
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* conteúdo do site, scroll*/
+#content {
+
+    width: 50%;
+    border: 2px solid white;
+    background-color: #212429;
+    border-radius: 8px;
+}
+
+/* ESTILIZAÇÃO DO FORMULÁRIO */
+
+h4 {
+    font-family: corpo;
+    text-align: justify;
+}
+form {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#formtitle {
+    text-align: center;
+    font-family: 'corpo';
+    font-size: 35px;
+    color: white;
+}
+
+#fomrsubtitle {
+    text-align: center;
+    font-family: 'corpo';
+    color: white;
+}
+
+fieldset {
+    border: 0;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    font-family: 'corpo';
+    margin-bottom: 1.0em;
+    color: white;
+    
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #212429;
+}
+
+#email {
+    margin-left: 55px;
+}
+#data, #dataehora {
+    margin-right: 15px;
+}
+
+select {
+    margin-top: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: transparent;
+    color: white;
+}
+
+input {
+    background-color: transparent;
+    padding: 7px;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+}
+
+textarea {
+    background-color: transparent;
+    width: 98%;
+    color: white;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+#btn {
+    text-align: center;
+}
+.submit-btn {
+
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    width: initial;
+}
+ .submit-btn, select {
+    cursor: pointer;
+ }
+
+/*Lateral com botões, fixa */
+#lateralitens {
+    position: fixed;
+    right: 4.2%;
+    top: 57%;
+    width: 24%;
+}
+
+li{
+    list-style: none;
+}
+#denuncia {
+    border: 2px solid #DAA520;
+}
+button {
+    margin-bottom: 5px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: #212429;
+    color: white;
+    font-size: 15px;
+    width: 95%;
+    padding: 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #687180;
+    transition-duration: 0.9s;
+}
+a {
+    text-decoration: none;
+}
+/* Estilização do rodapé*/
+
+footer {
+    font-family: 'corpo';
+    margin-top: 18%;
+}
+
+.afooter {
+    margin-left: 0px;
+    font-size: 18px;
+}
+.membros-time {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+.redes {
+    width: 100%;
+}
+
+.redes ul li span {
+    padding: 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+.instagram-ico {
+    max-width: 30px;
+    margin-left: 2%;
+   
+}
+
+.footertext {
+    text-align: center;
+    border: 2px solid white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+span {
+    color: #DAA520;
+}
+
+.logo {
+    margin-left: 5%;
+    max-width: 20%;
+    margin-bottom: 2%;
+}
+
+.texto {
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    border: 2px solid #DAA520;
+    margin: 0 5%;
+    color: #DAA520;
+    padding: 0.5%;
+}
+
+
+

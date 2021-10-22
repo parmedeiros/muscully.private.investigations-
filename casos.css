@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'title';
+    src: url('fonte/dosis.bold.ttf');
+}
+@font-face {
+    font-family: 'corpo';
+    src: url('fonte/ubuntu.mono-bold.ttf');
+}
+
+html {
+    background-image: url("imagens/bg.gif");
+    background-size: 100%;
+    background-attachment: fixed;
+    color: white;
+}
+/* Header do Site */
+.header {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.title {
+    font-family: 'title';
+}
+
+#icon {
+    margin-top: -20px;
+    margin-left: -30px;
+    margin-right: -15px;
+    float: left;
+    width: 140px;
+}
+
+#titulo {
+    margin-top: -8px;
+    font-size: 50px;
+}
+#subtitle {
+    margin-left: 9%;
+    margin-top: -3%;
+}
+
+/* Corpo do site */
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* conteúdo do site, scroll*/
+#content {
+    width: 75%;
+    font-family: 'corpo';
+}
+
+/* Conteúdo do site, casos famosos/divs laterais*/
+
+.picture {
+    border: 1px solid white;
+    margin-top: 10px;
+    max-width:500px;
+    max-height:350px;
+    width: 65%;
+    display: flex;
+   
+}
+
+.divcasos {
+    border: 2px solid white;
+    background-color: #212429;
+    border-radius: 8px;
+    text-align: justify;
+    margin-top: 1%;
+    margin-left: 0%;
+    margin-right: 1.5%;
+    margin-bottom: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 96%;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-top: -1%;
+    font-size: 19px;
+}
+
+.h3content {
+    color: #DAA520;
+    text-decoration: underline;
+    margin-bottom: 8%;
+}
+
+/*Lateral com botões, fixa */
+#lateralitens {
+    position: fixed;
+    right: 4.2%;
+    top: 57%;
+    width: 24%;
+}
+
+li{
+    list-style: none;
+}
+#casos {
+    border: 2px solid #DAA520
+}
+button {
+    margin-bottom: 5px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: #212429;
+    color: white;
+    font-size: 15px;
+    width: 95%;
+    padding: 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #687180;
+    transition-duration: 0.9s;
+}
+a {
+    text-decoration: none;
+}
+
+/* Estilização do rodapé*/
+
+footer {
+    font-family: 'corpo';
+    margin-top: 18%;
+}
+
+.afooter {
+    margin-left: 0px;
+    font-size: 18px;
+}
+.membros-time {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+.redes {
+    width: 100%;
+}
+li {
+    list-style: none;
+}
+
+.redes ul li span {
+    padding: 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+.instagram-ico {
+    max-width: 30px;
+    margin-left: 2%;
+   
+}
+
+.footertext {
+    text-align: center;
+    border: 2px solid white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+span {
+    color: #DAA520;
+}
+
+.logo {
+    margin-left: 5%;
+    max-width: 20%;
+    margin-bottom: 2%;
+}
+
+.texto {
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    border: 2px solid #DAA520;
+    margin: 0 5%;
+    color: #DAA520;
+    padding: 0.5%;
+}
+
+
+
+
+
